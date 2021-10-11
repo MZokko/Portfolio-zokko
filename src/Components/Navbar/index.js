@@ -49,12 +49,8 @@ const Navbar = ({ toggle }) => {
               <NavbarItem>
                 <NavbarLinks
                   to='/'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
                   exact='true'
                   offset={-80}
-                  activeClass='active'
                 >
                   Home
                 </NavbarLinks>
@@ -62,12 +58,8 @@ const Navbar = ({ toggle }) => {
               <NavbarItem>
                 <NavbarLinks
                   to='AboutMe'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
                   exact='true'
                   offset={-80}
-                  activeClass='active'
                 >
                   About Me
                 </NavbarLinks>
@@ -75,12 +67,8 @@ const Navbar = ({ toggle }) => {
               <NavbarItem>
                 <NavbarLinks
                   to='Portfolio'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
                   exact='true'
                   offset={-80}
-                  activeClass='active'
                 >
                   Portfolio
                 </NavbarLinks>
@@ -88,12 +76,8 @@ const Navbar = ({ toggle }) => {
               <NavbarItem>
                 <NavbarLinks
                   to='ContactMe'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
                   exact='true'
                   offset={-80}
-                  activeClass='active'
                 >
                   Contact Me
                 </NavbarLinks>
